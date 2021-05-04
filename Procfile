@@ -1,1 +1,1 @@
-worker: node mocb.py
+worker: py mocb.py
