@@ -5,13 +5,13 @@ from fastai.vision import open_image
 from fastai.vision import *
 import urllib.request
 from urllib.request import Request, urlopen
-import json
+# import json
 
-with open('./config.json') as f:
-    config = json.load(f)
+# with open('./config.json') as f:
+#     config = json.load(f)
 
 bot = commands.Bot(
-    command_prefix=config['prefix'], 
+    command_prefix="!", 
     case_insensitive=True,
     activity=discord.Game('on the sands of Havana'))
 
@@ -40,4 +40,4 @@ async def judge(ctx):
 
     # await ctx.send(ctx.message.attachments[0].url)
 
-bot.run(config['token'])
+bot.run(process.env.DISCORDPY_TOKEN)
