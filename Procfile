@@ -1,1 +1,1 @@
-worker: py mocb.py
+worker: python mocb.py
