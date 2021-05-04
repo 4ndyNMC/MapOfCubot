@@ -1,0 +1,8 @@
+{
+    "name": "map-of-cubot",
+    "version": "1.0.0",
+    "description": "Discord bot with Fastai computer vision model trained to recognize images of maps of Cuba",
+    "main": "mocb.py",
+    "author": "4ndynmc",
+    "dependencies": {}
+  }
